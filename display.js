@@ -24,4 +24,4 @@ function displayFanpageInfo(pages) {
       // Các đoạn mã khác để hiển thị thông tin và tạo liên kết
     }
   }
-  
+  export { displayFanpageInfo };

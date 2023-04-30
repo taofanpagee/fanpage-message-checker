@@ -1,10 +1,5 @@
-// Import file api.js
-const apiScript = document.createElement('script');
-apiScript.src = 'api.js';
-
-// Import file display.js
-const displayScript = document.createElement('script');
-displayScript.src = 'display.js';
+import { getPages } from './api.js';
+import { displayFanpageInfo } from './display.js';
 
 let scriptsLoaded = 0;
 

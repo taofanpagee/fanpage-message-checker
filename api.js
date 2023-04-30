@@ -17,4 +17,4 @@ async function getPages(accessToken, after) {
       return pages;
     }
   }
-  
+  export { getPages };
