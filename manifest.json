@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Fanpage Message Checker",
+    "version": "1.0",
+    "description": "Kiểm tra số lượng tin nhắn chưa đọc trên các fanpage",
+    "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+    },
+    "action": {
+    "default_icon": "icon48.png"
+    },
+    "permissions": [
+    "activeTab"
+    ],
+    "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "background": {
+    "service_worker": "background.js"
+    }
+    }
